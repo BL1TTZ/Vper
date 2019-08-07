@@ -1,86 +1,50 @@
-header {
-	background:url(../Imagenes/VerdeHeader.png);
-	background-repeat:repeat-x;
-	background-attachment:fixed;
-	background-size: 200px;
+
+ .fondo {
+     height: 100vh;
+    background: url('https://wallpaperplay.com/walls/full/d/1/c/128193.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-dbody {
-
-	background:url(../Imagenes/Vegan.png);
-	background-position: center;
-
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 1100px;
+.gris {
+    background: rgba(0, 0, 0, 0.253);
 }
 
-span {
-	color:red;
+.top-nav-collapse {
+    background: rgba(0, 0, 0, 0.74) !important;
 }
 
-li a {
-	color:green;
+.body {
+    background: black;
+}
+.card-body{
+    background: 50%;
 }
 
-
-
-.fondo{		
-
-			color: white;
-			width: 150px;
-
-
-
-		}
-
-.borde{
-
-	}
-
-.col-1 {
-	background-color: rgba(0,0,0,0.2);
-
-	height: 100px;
-}
-
-p {
-
-	font-style: oblique;
-}
-
-.title {
-	background-color:rgba(58.43%,71.76%,58.04%);
-	color:white;
-	position: absolute;
-	right: 50%;
-	background-attachment: fixed;
-	font-style: oblique;
+.modal-content{
+    background-color: #EAFFD5;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #C1FF98;
 
 
 }
 
-.last-add {
-	color:black;
-	font-size: 15px;
-	font-family:Pixel Sans Serif Regular;
-	color:rgba(0,0,0,0.5);
-	
+.user-img-userlog {
+    margin-top: -100px;
 }
 
-.popular-store p{
-	color:black;
-	font-size: 15px;
-	font-family:Pixel Sans Serif Regular;
-	color:rgba(0,0,0,0.5);
-	
+.user-img-userlog img{
+    width: 300px;
+    height: 300px;
 }
 
-.Aux {
-	background-color: rgba(0,125,125,0.3);
-	height: 300px;
-	width: 170px;
-	position: absolute;
+.form-group input {
+    height: 42px;
+    font-size: 18px;
+}
 
+.forgot-userlog-text {
+    color:green;
 }
