@@ -4,6 +4,7 @@
     background: url('https://wallpaperplay.com/walls/full/d/1/c/128193.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -19,7 +20,7 @@
     background: black;
 }
 .card-body{
-    background: 50%;
+    background: 50px;
 }
 
 .modal-content{
@@ -55,23 +56,45 @@
 
 
 
-.column{
-    margin-left: 0%;
-
-}
-
-
-.card {
-    width: 250px;
+.card_product {
+    width: 200px;
     height: 250px;
-    margin-left: 50px;
-    margin-top: 80px;
+    margin-left: 200px;
 }
 
-.card img{
+.card_product img{
    
     margin-top: 10px;
-    width: 150px;
-    height: 180px;
+    width: 130px;
+    height: 150px;
 }
 
+
+.row1{
+    margin-top: 30px;
+    margin-right: 50px; 
+
+}
+
+.row2 {
+    margin-top: 50px;
+     margin-right: 50px; 
+}
+
+
+.filtros{
+    margin-top: 70px;
+}
+
+.price {
+    font-size: 1em;
+}
+
+.buy_button {
+    width: 100px;
+    font-size: 1em;
+}
+
+.p-name{
+    font-size: 25px;
+}
