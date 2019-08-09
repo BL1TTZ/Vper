@@ -1,0 +1,96 @@
+1.Entrar al menu de inicio
+2.Hacer click en registrarse
+3.Escribir como nombre de usuario Ignacio, y algun correo y contraseña cualquieras, y hacer click en registar
+4.Estando ahora en usuario_registrado.html, click en regresar al menu, volviendo al inicio
+5.Click en productos, pasando a lista_productos.html
+6.Click en agregar productos, pasando a agregar_producto.html
+7.Hacer corte porque agregar_producto.html viene con imagen, y despues del corte explicar que se agrego
+8.Escribir en descripcion "Hamburguesa de lentejas" y click en enviar solicitud
+9.Click en productos, pasando a lista_productos.html
+10.Escribir "Leche de soya" en el campo de busqueda y click en buscar, pasando a busqueda_alimento.html
+11.Click en la imagen de la leche, pasando a detalles_producto.html
+12.Escribir "Uno de mis productos favoritos" en el campo de comentario y click en agregar comentario, pasando a detalles_producto2.html
+13.Regresar a index.html
+14. Inciar sesion, pasando a login.html
+15. Ingresar un correo y contraseña, pasando a admin.html
+16. Click en ver solicitudes
+17. Se vera la solicitud hecha anteriormente (Imagen de hamburguesa de lentejas, con nombre y hecha por Ignacio), aceptar o rechazar para volver a admin.html
+18. Click en ver usuarios, entrando a lista_usuarios.html
+19. Click en ver actividad del usuario, pasando a perfil_usuario.html
+20. Click en volver a perfil de administrados, regresando a admin.html
+21. Click en agregar producto, pasando a agregar_producto_admin.html
+22.Hacer corte porque agregar_producto_admin.html viene con imagen, y despues del corte explicar que se agrego
+23.Escribir en descripcion "Galletas" y click en agregar producto, lo cual regresa al menu de admin
+
+
+
+.html que debe haber que deben tener: (Todos deberian tener la barra superior que tiene contacto, lleva al menu de inicio, etc)
+1 Index(Casi Listo)
+Debe tener botones para ir a lista_productos (Productos,esta el boton pero hay que cambiar para que lleve a lista_productos), 
+registro.html (Este es el que falta) y login.html (Listo)
+
+
+2 Login(Casi Listo)
+Tiene 2 campos de texto, y un boton que lleva a admin.html (Se entiende que si se conecta un admin lo lleva de forma directa, falta que
+el boton redirija )
+
+
+3 Registro
+Tiene 2 campos de texto, y un boton que lleva a usuario_registrado.html
+
+
+4 usuario_resgistrado
+Tiene un texto explicando que el usuario Ignacio (cambiar el nombre aqui requiere cambiarlo en otras partes)
+fue registrado y esta activo, tambien que si se desea cambiar de sesion solo se debe ir a iniciar sesion
+Y tiene un boton para volver a la pagina principal
+
+
+5 lista_productos (Listo)
+Lista algunos productos distintos, a traves del boton de busqueda envia a busqueda_alimento.html y con el boton "Agregar producto" envia a
+agregar_producto.html
+
+
+6 agregar_producto
+Tiene una imagen lista de una hamburguesa de lentejas, un campo de texto, un boton que dice "Enviar solicitud" que redirige a index.html. Y un campo que dice
+que cualquier intento de agregar un producto debera ser aprovado por un administrador
+
+7 busqueda_alimento(Listo)
+Tiene imagenes de leche de soya, y un link a detalles_producto.html en las imagenes
+
+8 detalles_producto(Listo)
+Tiene una imagen de leche de soya, texto descriptivo y un campo de texto y un boton de "Agregar comentario" que lleva a detalles_producto2
+
+9 detalles_producto2(Listo)
+Tiene una imagen de leche de soya, texto descriptivo y un campo de texto, un boton de "Agregar comentario" y un comentario predeterminado
+
+
+10 admin
+Es un menu de opciones, tiene "Ver solicitudes" que lleva a solicitudes.html, "Ver usuarios" que lleva a lista.html, 
+"Agregar Producto" que lleva a agregar_producto_admin.html
+
+
+11 solicitudes
+Tiene una tabla con 5 Columans y 2 filas, la primera describe que la tabla tiene Imagen, Descripcion, Usuario, Aceptar, Rechazar
+ En la segunda fila hay en orden la imagen de una hamburguesa de lentejas, la descricion "Hamburguesa de lentejas", el usuario
+"Ignacio", un boton que dice "Aceptar" y el otro "Rechazar", ambos botones redireccionan a admin.html
+
+
+12 lista_usuarios
+Una tabla de 2 columan, la primera con nombres (Minimo que aparezca Ignacio para seguir la presentacion), y la segunda con un boton 
+"Ver actividad", el cual redirecciona a perfil_usuario.html
+
+13 perfil_usuaio
+Tiene un texto que dice:
+"
+Usuario Ignacio
+Lista de comentarios:
+Leche de Soya: "Uno de mis productos favoritos"
+Solicitudes de agregar producto:
+Hamburguesa de lentejas
+"
+Y tiene un boton de "Regresar al menu de admin" que lleva a admin.html
+
+
+14 agregar_producto_admin
+Tiene una imagen lista de unas galletas, un campo de texto, un boton que dice "Agregar producto" que redirige a admin.html.
+

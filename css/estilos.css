@@ -7,7 +7,9 @@
     background-attachment: fixed;
 
 }
-
+.detail-product{
+    background: #E7E5D8
+}
 .gris {
     background: rgba(0, 0, 0, 0.253);
 }
@@ -98,3 +100,4 @@
 .p-name{
     font-size: 25px;
 }
+
