@@ -39,22 +39,18 @@
                     </li>
 
                 </ul>
-                  <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                <ul class="nav navbar-nav nav-flex-icons ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link"><span
-                                class="clearfix d-none d-sm-inline-block">Salir</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"><span
-                                class="clearfix d-none d-sm-inline-block">Subir Productos</span></a>
+                        <a class="nav-link"><i class="far fa-comments"></i> <span
+                                class="clearfix d-none d-sm-inline-block">Registrarse</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link"><i class="fas fa-user"></i> <span
-                                class="clearfix d-none d-sm-inline-block">Ricardo Milos</span></a>
+                                class="clearfix d-none d-sm-inline-block">Iniciar Sesion</span></a>
                     </li>
 
                 </ul>
-
+            </div>
 
         </div>
 
@@ -64,119 +60,183 @@
     <div class="fondo">
        <br>
 
-       <div class="row">
-        <div class="col-lg-9 mx-auto text-white text-center pt-5">
-        <h1 class="display-4">Da a conocer tus productos y expande la comunidad</h1>
-        <p class="lead mb-0">Muchas gracias de parte del equipo Vper</p>
-    </div>
-</div>
-      
-  <div class="col-11 Productos">
+        <div class="row row_principal">
+
+            <div class="col-12 filtros">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Todo
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Fruta
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Verdura
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option4" autocomplete="off"> Procesado
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option5" autocomplete="off"> Jumbo
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option6" autocomplete="off"> Unimarc
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option7" autocomplete="off"> Lider
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option8" autocomplete="off"> Proteina
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option9" autocomplete="off"> Conservante
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option10" autocomplete="off"> Antioxidante
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option11" autocomplete="off"> Sustituto
+                  </label>
+                </div>
+                
+
+            </div>
+            <div class="col-11 Productos">
 
                 <!-- FILAS Y COLUMNAS DE PRODUCTOS -->
                 <div class="column">
-                    <div class="row">
-                        <div class="col-4 Product">
-                            <div class="card card_product-add">
-                                <img id="imgSalida" width="50%" height="50%" text="No Image" />
-                                <input class="boton-add" name="file-input" id="file-input" type="file" />
-                                <br>
+                    <div class="row row1">
+                        <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/SL.png" alt="LechePascual">
                                 <div class="text product-name">
+                                     <h3 class="p-name">Yogurt de Soya</h3>
+                                     <h4 class="price">$ 1.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8 Info-Product">
 
 
-                          <div class="form-group" id="user-name-userlog">
-                                    <input type="text" class="form-control" placeholder="Nombre producto">
+                        <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/VM.png" alt="LechePascual">
+                                <div class="text product-name">
+                                      <h3 class="p-name">Carne Vegana</h3>
+                                     <h4 class="price">$ 3.400</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
                                 </div>
+                            </div>
+                        </div>
 
-                                 <div class="form-group" id="user-name-userlog">
-                                    <input type="text" class="form-control" placeholder="Valor de producto en CLP $">
+                        <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/Mango.jpg" alt="LechePascual">
+                                <div class="text product-name">
+                                      <h3 class="p-name">Cubos de Mango</h3>
+                                     <h4 class="price">$ 5.300</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
                                 </div>
+                            </div>                
+                        </div>
 
-
-                                <div class="class-product">Clasisifacion</div>.
-                                  <div class="checkbox">
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Proteina
-                                </label>
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Suplemento
-                                </label>
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Sustituto
-                                </label>
-                                <label> 
-                                  <input class="col-12"type="checkbox" value="">
-                                  Procesado
-                                </label>
-                                <label>
-                                  <input class="col-12"type="checkbox" value="">
-                                 Conservante
-                                </label>
-                                <label>
-                                 <input class="col-12"type="checkbox" value="">
-                                 Antioxidante
-                                </label>
-                                <label>
-                                <input class="col-12"type="checkbox" value="">
-                                 Fruta
-                                </label>
-                                <label>
-                                <input class="col-12"type="checkbox" value="">
-                                 Verdura
-                                </label>
-                              </div>
-                          
-
-                            
-                                <div class="class-product">Distribuidora</div>.
-                                  <div class="checkbox">
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Jumbo
-                                </label>
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Unimarc
-                                </label>
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Lider
-                                </label>
-                                <label>
-                                  <input class="col-12" type="checkbox" value="">
-                                  Otro
-                                </label>
-                              
-                              </div>
-                              <div class="form-group" id="user-name-userlog">
-                                    <input type="text" class="form-control" placeholder="Negocio Local?">
+                        <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/Loma.png" alt="LechePascual">
+                                <div class="text product-name">
+                                     <h3 class="p-name">Loma</h3>
+                                     <h4 class="price">$ 1.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
                                 </div>
+                            </div>                
+                        </div>
 
-
-                                <button type="button" class="btn btn-success">Upload</button>
+                        <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/LDA.png" alt="LechePascual">
+                                <div class="text product-name">
+                                      <h3 class="p-name">Leche de Avena</h3>
+                                     <h4 class="price">$ 1.800</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
                                 </div>
-
-                      </div>
-                      </div>
+                            </div>                
+                        </div>
                     </div>
-                    </div>
-
-
-
-                  </div>
-                  <br>
-                  <br>
-
                 </div>
 
+
+
+
+            <div class="column">
+                <div class="row row2">
+                    <div class="col-2 Product">
+                        <div class="card card_product">
+                            <img src="Imagenes/Productos/Crema de Coco.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Crema de Coco</h3>
+                                     <h4 class="price">$ 1.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>                            
+                                </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-2 Product">
+                        <div class="card card_product">
+                            <img src="Imagenes/Productos/PV.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Proteina Vegana</h3>
+                                     <h4 class="price">$ 1.000</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-2 Product">
+                        <div class="card card_product">
+                            <img src="Imagenes/Productos/VQ.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Queso Vegano</h3>
+                                     <h4 class="price">$ 2.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-2 Product">
+                        <div class="card card_product">
+                            <img src="Imagenes/Productos/Aceite de Palta.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Aceite de Palta</h3>
+                                     <h4 class="price">$ 1.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>                
+                    </div>
+
+                    <div class="col-2 Product">
+                        <div class="card card_product">
+                            <img src="Imagenes/Productos/Papa y guisantes.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Papa y Guisantes</h3>
+                                     <h4 class="price">$ 900</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            
+        </div>
+    </div>
+
 </center>
+
         
 
 
