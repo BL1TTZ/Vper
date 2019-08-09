@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vper - Login</title>
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark gris fixed-top scrolling-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vper</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Index.html">Inicio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="far fa-comments"></i> <span
+                                class="clearfix d-none d-sm-inline-block">Registrarse</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link"><i class="fas fa-user"></i> <span
+                                class="clearfix d-none d-sm-inline-block">Iniciar Sesion</span></a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+<center>
+    <div class="fondo">
+       <br>
+
+        <div class="row row_principal">
+
+            <div class="col-12 filtros">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary">
+                    <input href="#" type="radio" name="options" id="option1" autocomplete="off" checked> Todo
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Fruta
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Verdura
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option4" autocomplete="off"> Procesado
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option5" autocomplete="off"> Jumbo
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option6" autocomplete="off"> Unimarc
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option7" autocomplete="off"> Lider
+                  </label>
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option8" autocomplete="off"> Proteina
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option9" autocomplete="off"> Conservante
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option10" autocomplete="off"> Antioxidante
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option11" autocomplete="off"> Sustituto
+                  </label>
+                </div>
+                
+
+            </div>
+            <div class="col-11 Productos">
+
+                <!-- FILAS Y COLUMNAS DE PRODUCTOS -->
+                <div class="column">
+                    <div class="row row1">
+                      
+
+
+                        <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/VM.png" alt="LechePascual">
+                                <div class="text product-name">
+                                      <h3 class="p-name">Carne Vegana</h3>
+                                     <h4 class="price">$ 3.400</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="col-2 Product">
+                            <div class="card card_product">
+                                <img src="Imagenes/Productos/Loma.png" alt="LechePascual">
+                                <div class="text product-name">
+                                     <h3 class="p-name">Loma</h3>
+                                     <h4 class="price">$ 1.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                                </div>
+                            </div>                
+                        </div>
+
+                        <div class="col-2 Product">
+                          <div class="card card_product">
+                            <img src="Imagenes/Productos/PV.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Proteina Vegana</h3>
+                                     <h4 class="price">$ 1.000</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col-2 Product">
+                        <div class="card card_product">
+                            <img src="Imagenes/Productos/VQ.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Queso Vegano</h3>
+                                     <h4 class="price">$ 2.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+
+            
+
+        </div>
+            
+        </div>
+    </div>
+
+</center>
+
+        
+
+
+
+
+    <!-- COSAS DEL BOOTSTRAP-->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+</body>
+
+</html>
