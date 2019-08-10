@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link" href="IndexFake.html">Inicio </a>
+                        <a class="nav-link" href="Index.html">Inicio </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Productos</a>
@@ -39,14 +39,15 @@
                     </li>
 
                 </ul>
-                </ul>
+               </ul>
                   <ul class="nav navbar-nav nav-flex-icons ml-auto">
                     <li class="nav-item">
                         <a class="nav-link"><span
                                 class="clearfix d-none d-sm-inline-block">Salir</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="AgregarProducto.html"><span class="clearfix d-none d-sm-inline-block">Subir Productos</span></a>
+                        <a class="nav-link"href="AgregarProducto.html"><span
+                                class="clearfix d-none d-sm-inline-block">Subir Productos</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link"><i class="fas fa-user"></i> <span
@@ -73,8 +74,8 @@
 
             <div class="col-12 filtros">
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <label class="btn btn-secondary">
-                    <div onClick="window.location = 'ListProductosFake.html';">
+                  <label class="btn btn-secondary active">
+                    <div onClick="window.location = 'ListProductos.html';">
                     <input type="radio" name="options" id="option1" autocomplete="off" checked> Todo
                   </div>
                   </label>
@@ -103,8 +104,10 @@
                     <input type="radio" name="options" id="option6" autocomplete="off"> Unimarc
                   </div>
                   </label>
-                  <label class="btn btn-secondary active">
+                  <label class="btn btn-secondary">
+                    <div onClick="window.location = 'Fake_SinGluten.html';">
                     <input type="radio" name="options" id="option7" autocomplete="off"> Sin Gluten
+                  </div>
                   </label>
                   <label class="btn btn-secondary">
                     <input type="radio" name="options" id="option8" autocomplete="off"> Proteina
@@ -226,6 +229,19 @@
 
                     <div class="col-2 Product">
                         <div class="card card_product">
+                            <img src="Imagenes/Productos/VQ.png" alt="LechePascual">
+                            <div class="text product-name">
+                                  <h3 class="p-name">Queso Vegano</h3>
+                                     <h4 class="price">$ 2.200</h4>
+                                    <button type="button" class="btn btn-secondary buy_button">Link</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-2 Product">
+                        <div class="card card_product">
                             <img src="Imagenes/Productos/Aceite de Palta.png" alt="LechePascual">
                             <div class="text product-name">
                                   <h3 class="p-name">Aceite de Palta</h3>
@@ -235,26 +251,18 @@
                         </div>                
                     </div>
 
-
-
                     <div class="col-2 Product">
                         <div class="card card_product">
-                            <img src="Imagenes/Productos/MV.png" alt="LechePascual">
+                            <img src="Imagenes/Productos/Papa y guisantes.png" alt="LechePascual">
                             <div class="text product-name">
-                                  <h3 class="p-name">Mayoneza Vegana</h3>
-                                     <h4 class="price">$ 2.000</h4>
-                                   <div onClick="window.location = 'Productos/MayonesaVegana.html';">
+                                  <h3 class="p-name">Papa y Guisantes</h3>
+                                     <h4 class="price">$ 900</h4>
                                     <button type="button" class="btn btn-secondary buy_button">Link</button>
-                                  </div>
                             </div>
                         </div>                
                     </div>
-
-                    
                 </div>
-            </div>
-
-        </div>
+                 
             
         </div>
     </div>
